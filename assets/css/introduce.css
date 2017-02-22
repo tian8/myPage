@@ -1,0 +1,55 @@
+body{
+    magrin:0;
+    padding: 0;
+    background:rgb(225,225,225);
+    overflow: hidden;
+}
+.box{
+
+
+    width:60%;
+    min-height:200px;
+    margin:20px 18% 20px 18%;
+    padding:10px 2%;
+    background:radial-gradient(rgb(255,255,255),rgb(225,225,225));
+    border: 1px solid rgb(225,225,225);
+    transition: all 0.7s ease-out;
+    animation: box 2s ease-out  1;
+    visibility : hidden;
+
+}
+.box:hover{
+    box-shadow: 10px 10px 5px rgb(99,99,99);
+}
+@keyframes box {
+    0% {
+        transform:translate(0,2000px);
+    }
+    20%{
+        transform:translate(0,1500px);
+    }
+    40%{
+        transform:translate(0,1000px);
+    }
+    60%{
+        transform:translate(0,500px);
+    }
+    80%{
+        transform:translate(0,0);
+    }
+}
+.box .logo{
+    width:120px;
+    height:160px;
+    margin:20%;
+}
+.basic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.experience{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

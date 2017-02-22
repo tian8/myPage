@@ -1,0 +1,53 @@
+body {
+    magrin: 0;
+    padding: 0;
+    background: rgb(200, 200, 200);
+}
+
+.circle {
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 1px solid #CCC;
+    background: radial-gradient(at 35px 35px, #FFF, #CCC, #FFF);
+}
+
+.circle2 {
+     position: absolute;
+     top: 400px;
+     left: 600px;
+     width: 200px;
+     height: 200px;
+     border-radius: 200px;
+     border: 1px solid #CCC;
+     background: radial-gradient(at 35px 35px, rgba(255, 255, 255, 0.2), rgba(169, 169, 169, 0.2), rgba(255, 255, 255, 0.2));
+ }
+.circle3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border: 1px solid #CCC;
+    background: radial-gradient(at 35px 35px, rgba(0, 255, 255, 0.2), rgba(255, 255, 255, 0.2), rgba(0, 255, 255, 0.2));
+}
+.circle4 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 600px;
+    border-radius: 200px;
+    border: 1px solid #CCC;
+    background: radial-gradient(at 35px 35px, rgba(255, 0, 255, 0.2), rgba(255, 255, 255, 0.2), rgba(255, 0, 255, 0.2));
+}
+.circle5 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:400px;
+    border-radius: 200px;
+    border: 1px solid #CCC;
+    background: radial-gradient(at 35px 35px, rgba(255, 255, 0, 0.2), rgba(255, 255, 255, 0.2), rgba(255, 255, 0, 0.2));
+}
